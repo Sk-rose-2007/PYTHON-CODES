@@ -1,0 +1,6 @@
+file = open("C:\\PYTHON CODES\\file.txt", "r")
+data = file.read()
+words = data.split()
+count = len(words)
+print("Number of words:", count)
+file.close()
